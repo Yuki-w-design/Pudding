@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include<string.h>
+# define n 100
+int main()
+{
+	char s1[n]={'\0'},s2[n]={'\0'},s3[n],s4[n];
+	char *p=s1,*q=s2;
+	int a=0,b=0,i,j;
+	gets(s1);
+	gets(s2);
+		while(*p)
+		{
+		if(*p>='A'&&*p<='Z'||*p>='a'&&*p<='z')
+			{
+				s3[a]=*p;
+	            p++;
+	            a++;
+		}
+		else
+			p++;
+		}
+		   s3[a]='\0';	
+		while(*q)
+		{
+		if(*q>='0'&&*q<='9')
+			{
+				s4[b]=*q;
+	            q++;
+	            b++;
+		}
+		else
+			q++;
+		}	
+		s4[b]='\0';
+		printf("用户名为:");
+				for(i=0;i<strlen(s3);i++)
+					if(i%2==0)
+						printf("%c",s3[i]);
+		putchar('\n');
+		printf("密码为:");
+				for(j=0;j<strlen(s4);j++)
+					if(j%2)
+						printf("%c",s4[j]);
+}

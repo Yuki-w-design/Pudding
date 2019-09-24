@@ -32,13 +32,18 @@ int main()
 			q++;
 		}	
 		s4[b]='\0';
-		printf("ÓÃ»§ÃûÎª:");
+		printf("ç”¨æˆ·åä¸º:");
 				for(i=0;i<strlen(s3);i++)
 					if(i%2==0)
 						printf("%c",s3[i]);
 		putchar('\n');
-		printf("ÃÜÂëÎª:");
+		printf("å¯†ç ä¸º:");
 				for(j=0;j<strlen(s4);j++)
 					if(j%2)
 						printf("%c",s4[j]);
 }
+
+
+/*
+è¿œç¨‹edit
+*/

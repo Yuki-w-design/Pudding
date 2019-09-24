@@ -32,12 +32,12 @@ int main()
 			q++;
 		}	
 		s4[b]='\0';
-		printf("用户名为:");
+		printf("鐢ㄦ埛鍚嶄负:");
 				for(i=0;i<strlen(s3);i++)
 					if(i%2==0)
 						printf("%c",s3[i]);
 		putchar('\n');
-		printf("密码为:");
+		printf("瀵嗙爜涓?");
 				for(j=0;j<strlen(s4);j++)
 					if(j%2)
 						printf("%c",s4[j]);
@@ -45,6 +45,8 @@ int main()
 
 
 
+
 /*
 本地编辑
 */
+
